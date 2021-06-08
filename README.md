@@ -1,5 +1,9 @@
 # House_price
 
+***Introduction*** 
+
+As of now we have divided the input data into train and test datasets and use it for model training and testing respectively. This method is not very reliable as train and test data not always have same kind of variation like original data, which will affect the accuracy of the model. Cross validation solves this problem by dividing the input data into multiple groups instead of just two groups. There are multiple ways to split the data, in this article we are going to cover K Fold and Stratified K Fold cross validation techniques.
+
 ## Data fields
 Here's a brief version of what you'll find in the data description file.
 
